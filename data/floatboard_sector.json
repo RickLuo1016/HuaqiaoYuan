@@ -1,0 +1,43 @@
+{
+    "type": "FeatureCollection",
+    "features": [{
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [104.066582, 30.697764]
+            },
+            "properties": {
+                "id": 1,
+                "name": "金融总部基地",
+                "color": "0x444444",
+                "value": "具体活动：————————————"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [104.066582, 30.697764]
+            },
+            "properties": {
+                "id": 1,
+                "name": "专业咨询服务中心",
+                "color": "0x444444",
+                "value": "具体活动：————————————"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [104.066582, 30.697764]
+            },
+            "properties": {
+                "id": 1,
+                "name": "商务会议中心",
+                "color": "0x444444",
+                "value": "具体活动：————————————"
+            }
+        }
+    ]
+}

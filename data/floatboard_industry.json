@@ -1,0 +1,43 @@
+{
+    "type": "FeatureCollection",
+    "features": [{
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [104.066582, 30.697764]
+            },
+            "properties": {
+                "id": 1,
+                "name": "国际金融贸易区",
+                "color": "0x444444",
+                "value": "功能定位：——————————————"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [104.066582, 30.697764]
+            },
+            "properties": {
+                "id": 1,
+                "name": "华侨文化交流区",
+                "color": "0x444444",
+                "value": "功能定位：——————————————"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [104.066582, 30.697764]
+            },
+            "properties": {
+                "id": 1,
+                "name": "跨境电子商务区",
+                "color": "0x444444",
+                "value": "功能定位：——————————————"
+            }
+        }
+    ]
+}
