@@ -50,7 +50,7 @@ threeLayer1.prepareToDraw = function(gl, scene, camera) {
     directionalLight.shadow.radius = 2;
 
     directionalLight.shadow.camera.near = 0.5;
-    directionalLight.shadow.camera.far = 300000;
+    directionalLight.shadow.camera.far = 3000000;
     directionalLight.shadow.camera.left = -10;
     directionalLight.shadow.camera.right = 10;
     directionalLight.shadow.camera.top = 10;
@@ -87,7 +87,6 @@ threeLayer1.prepareToDraw = function(gl, scene, camera) {
             mesh.translateY(2586.191500 * 7 - 604.9);
             directionalLight.target = mesh;
 
-               
             mesh.traverse(function(child) {          
                 if (child instanceof THREE.Mesh) {
                     child.castShadow = true;
