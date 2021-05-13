@@ -15,7 +15,7 @@ threeLayer2.prepareToDraw = function(gl, scene, camera) {
     // initialise a plain to receive the shadow
     var planeGeometry = new THREE.PlaneGeometry(6.323 * 2.85, 4.77 * 2.85);
     var planeMaterial = material = new THREE.MeshBasicMaterial({ transparent: true });
-    let map = new THREE.TextureLoader().load('./data/photo/Zongtu0512.png');
+    let map = new THREE.TextureLoader().load('../data/photo/Zongtu0512.png');
     material.map = map; //打底贴图
     var planeMesh = new THREE.Mesh(planeGeometry, planeMaterial);
 
